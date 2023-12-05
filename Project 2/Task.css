@@ -1,0 +1,71 @@
+body {
+  background-color: rgb(34, 34, 34);
+  font-family: Roboto;
+  color: white;
+}
+
+.container-1 {
+  display: block;
+}
+.hello-name {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.date-here {
+  font-weight: 700;
+  margin-top: 0px;
+  margin-bottom: 15px;
+
+}
+
+.container-2{
+  display: block;
+}
+.todo-bar, .date-bar {
+  border: none;
+  border-radius: 20px;
+  padding: 7px;
+  outline: none;
+}
+.todo-bar:hover {
+}
+
+.add-button {
+  padding: 8px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  background-color: rgb(179, 36, 60);
+  color: white;
+}
+.add-button:hover {
+  background-color: rgb(219, 59, 85);
+  transition: 0.15s;
+}
+
+
+.todo-list-css {
+  background-color: rgba(99, 99, 99,0.5);
+  padding: 10px;
+  margin: 15px 5px 15px 5px;
+
+}
+.todo-list-css:hover {
+  opacity: 80%;
+}
+.delete-button {
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(179, 36, 60);
+  color: white;
+  font-size: 16px;
+}
+.delete-button:hover {
+  background-color: rgb(224, 51, 80);
+  transition: 0.2s;
+
+}
+.fa-shake {
+  animation-duration: 1.5s;
+}
